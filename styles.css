@@ -38,11 +38,11 @@ section {
 section h2 {
   margin-bottom: 2rem;
   font-size: 1.75rem;
-  color: #3498db; /* A more professional blue */
-  text-align: left; /* Left-align section titles */
-  background-color: #f0f8ff; /* Light blue background for titles */
-  padding-left: 1rem; /* Add some padding to the left */
-  border-radius: 5px 0 0 5px; /* Rounded corners on the left side */
+  color: #3498db;
+  text-align: left;
+  background-color: #f0f8ff;
+  padding-left: 1rem;
+  border-radius: 5px 0 0 5px;
 }
 #about {
   display: flex;
@@ -68,18 +68,18 @@ section h2 {
   border-collapse: collapse;
   margin-top: 1rem;
   font-size: 0.9rem;
-  border: 1px solid #b0c4de; /* Add a border to the table */
+  border: 1px solid #b0c4de;
 }
 #skills-table th,
 #skills-table td {
   padding: 0.75rem;
   border-bottom: 1px solid #b0c4de;
   text-align: left;
-  border-right: 1px solid #b0c4de; /* Add right borders to cells */
+  border-right: 1px solid #b0c4de;
 }
 #skills-table th {
   font-weight: 600;
-  color: #2c3e50; /* Darker blue for heading */
+  color: #2c3e50;
   background-color: #e0f7fa;
 }
 #skills-table td {
@@ -88,11 +88,11 @@ section h2 {
 #skills-table i {
   margin-right: 0.5rem;
   font-size: 1.1rem;
-  color: #3498db; /* Blue for icons */
+  color: #3498db;
 }
 #skills-table th:last-child,
 #skills-table td:last-child {
-  border-right: none; /* Remove right border for the last column */
+  border-right: none;
 }
 #projects .project {
   margin-bottom: 2rem;
@@ -104,7 +104,7 @@ section h2 {
 #projects .project h3 {
   margin-bottom: 1rem;
   font-size: 1.25rem;
-  color: #2c3e50; /* Dark blue for project title */
+  color: #2c3e50;
 }
 #projects .project p {
   margin-bottom: 1rem;
@@ -112,7 +112,7 @@ section h2 {
   color: #495057;
 }
 #projects .project a {
-  color: #3498db; /* Blue for project link */
+  color: #3498db;
   text-decoration: none;
   font-weight: 600;
   font-size: 0.9rem;
