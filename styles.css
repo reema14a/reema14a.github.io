@@ -13,7 +13,7 @@ header {
   text-align: center;
   padding: 2rem 0;
   background-image: linear-gradient(to right, #b4a3f7, #7e57c2);
-  /*background-image: linear-gradient(to right, #957ef2, #7e57c2);*/
+  /*background-image: linear-gradient(to right, #9e47f7, #6a1b9a);*/
 }
 
 header h1 {
@@ -42,7 +42,8 @@ section {
   background-color: white;
   padding: 2rem;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
@@ -75,7 +76,7 @@ section h2 {
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: justify;
-  min-height: 250px; /* Optional: creates a square-ish block */
+  min-height: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -128,12 +129,21 @@ section h2 {
   border-right: none;
 }
 
+#skills-table tr:hover {
+  background-color: #f3e5f5;
+}
+
 #projects .project {
   margin-bottom: 2rem;
   border: 1px solid #e1bee7;
   padding: 1.5rem;
   border-radius: 10px;
   background-color: #ffffff;
+}
+
+#projects .project:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
 }
 
 #projects .project h3 {
@@ -205,8 +215,8 @@ footer {
 
 #left-column {
   display: flex;
-  flex-direction: column; /* this ensures sections stack */
-  align-items: stretch; /* or 'center', depending on layout preference */
+  flex-direction: column;
+  align-items: stretch;
 }
 
 #right-column {
@@ -225,10 +235,99 @@ footer {
 }
 
 .contact-icons a:hover {
+  /* color: #ba68c8; */
   color: #d1c4e9;
 }
 
 .contact-icons i {
   vertical-align: middle;
   display: inline-block;
+}
+
+.tools {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tool-tag {
+  background-color: #e8eaf6;
+  color: #3f51b5;
+  padding: 3px 10px;
+  margin: 4px 4px 0 0;
+  border-radius: 12px; /* More pill-like shape to suggest label */
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.8rem;
+  gap: 6px;
+  cursor: default;
+  border: 1px solid #d6d3f0;
+  box-shadow: none;
+  font-weight: 400;
+  transition: none;
+}
+
+.tool-tag i {
+  color: #a981bc;
+  font-size: 1rem;
+}
+
+.project-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-media {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 15px 0;
+  justify-content: center;
+}
+
+.project-media img {
+  flex: 1 1 30%;
+  max-width: 30%;
+  min-width: 150px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+/* Responsive stacking for smaller screens */
+@media (max-width: 768px) {
+  .project-media img {
+    max-width: 100%;
+  }
+}
+
+.project-links {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-links a {
+  text-decoration: none;
+  color: #3f51b5;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #f4f4f4;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+#projects .project .project-links a {
+  color: #3f51b5;
+}
+
+.project-links a:hover {
+  background-color: #e0e0e0;
 }
