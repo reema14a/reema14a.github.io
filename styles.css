@@ -33,7 +33,7 @@ header p {
   margin: 0 auto;
   padding: 2rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   gap: 2rem;
 }
 
@@ -59,9 +59,10 @@ section h2 {
 
 #about {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 2rem;
+  flex-direction: column; /* ensures vertical stacking */
+  align-items: center; /* optional: centers image and text */
+  gap: 1.5rem;
+  text-align: center; /* optional: for a cleaner centered look */
 }
 
 #about img {
@@ -195,7 +196,9 @@ footer {
 }
 
 #left-column {
-  grid-column: 1;
+  display: flex;
+  flex-direction: column; /* this ensures sections stack */
+  align-items: stretch; /* or 'center', depending on layout preference */
 }
 
 #right-column {
