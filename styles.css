@@ -2,32 +2,31 @@ body {
   font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(
-    to bottom,
-    #f8f9fa,
-    #e0f7fa
-  ); /* Light blue gradient */
+  background-image: linear-gradient(to bottom, #f8f9fa, #e0f7fa);
   color: #495057;
   line-height: 1.7;
   font-size: 0.9rem;
 }
+
 header {
-  background-color: #a981bc;
   color: white;
   text-align: center;
   padding: 2rem 0;
-  background-image: linear-gradient(to right, #a981bc, #b39ddb);
+  background-image: linear-gradient(to right, #957ef2, #6f0be8);
 }
+
 header h1 {
   margin-bottom: 0.5rem;
   font-size: 2rem;
 }
+
 header p {
   font-size: 1.1rem;
   font-weight: 500;
   margin-bottom: 0;
   color: #f8f0fb;
 }
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -36,6 +35,7 @@ header p {
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
 }
+
 section {
   margin-bottom: 3rem;
   background-color: white;
@@ -43,22 +43,25 @@ section {
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 section h2 {
   margin-bottom: 2rem;
   font-size: 1.75rem;
   color: #fff;
   text-align: left;
-  background-image: linear-gradient(to right, #a981bc, #9c64d1);
+  background-image: linear-gradient(to right, #a683e8, #7b5ac2);
   padding-left: 1rem;
   border-radius: 5px 0 0 5px;
   border-bottom: none;
 }
+
 #about {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 2rem;
 }
+
 #about img {
   width: 180px;
   height: 180px;
@@ -66,13 +69,16 @@ section h2 {
   object-fit: cover;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 #about p {
   font-size: 1rem;
   color: #495057;
 }
+
 #skills h2 {
   color: #fff;
 }
+
 #skills-table {
   width: 100%;
   border-collapse: collapse;
@@ -80,6 +86,7 @@ section h2 {
   font-size: 0.9rem;
   border: 1px solid #d1c4e9;
 }
+
 #skills-table th,
 #skills-table td {
   padding: 0.75rem;
@@ -87,23 +94,28 @@ section h2 {
   text-align: left;
   border-right: 1px solid #d1c4e9;
 }
+
 #skills-table th {
   font-weight: 600;
   color: #ffffff;
   background-image: linear-gradient(to right, #7e57c2, #9c27b0);
 }
+
 #skills-table td {
   color: #495057;
 }
+
 #skills-table i {
   margin-right: 0.5rem;
   font-size: 1.1rem;
   color: #a981bc;
 }
+
 #skills-table th:last-child,
 #skills-table td:last-child {
   border-right: none;
 }
+
 #projects .project {
   margin-bottom: 2rem;
   border: 1px solid #e1bee7;
@@ -111,25 +123,30 @@ section h2 {
   border-radius: 10px;
   background-color: #ffffff;
 }
+
 #projects .project h3 {
   margin-bottom: 1rem;
   font-size: 1.25rem;
   color: #512da8;
 }
+
 #projects .project p {
   margin-bottom: 1rem;
   font-size: 1rem;
   color: #495057;
 }
+
 #projects .project a {
   color: #a981bc;
   text-decoration: none;
   font-weight: 600;
   font-size: 0.9rem;
 }
+
 #projects .project a:hover {
   text-decoration: underline;
 }
+
 #education p,
 #contact p,
 #experience p,
@@ -138,6 +155,7 @@ section h2 {
   margin-bottom: 0.5rem;
   color: #495057;
 }
+
 footer {
   background-color: #512da8;
   color: #f8f0fb;
@@ -147,29 +165,36 @@ footer {
   border-top: 1px solid #7e57c2;
   font-size: 0.9rem;
 }
+
 @media (max-width: 768px) {
   .container {
     grid-template-columns: 1fr;
   }
+
   #about {
     flex-direction: column;
     text-align: center;
   }
+
   #skills ul {
     flex-direction: column;
   }
+
   #skills-table {
     display: block;
     overflow-x: auto;
   }
 }
+
 .section-header {
   text-align: center;
   margin-bottom: 2rem;
 }
+
 #left-column {
   grid-column: 1;
 }
+
 #right-column {
   grid-column: 2;
 }
