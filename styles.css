@@ -2,26 +2,26 @@ body {
   font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f8f9fa; /* Very light gray background */
-  color: #495057; /* Darker gray text */
+  background-color: #f8f9fa;
+  color: #495057;
   line-height: 1.7;
-  font-size: 0.9rem; /* Slightly smaller font */
+  font-size: 0.9rem;
 }
 header {
-  background-color: #34495e; /* Darker, muted header */
+  background-color: #2c3e50; /* Darker, muted blue */
   color: white;
   text-align: center;
   padding: 2rem 0;
 }
 header h1 {
   margin-bottom: 0.5rem;
-  font-size: 2rem; /* Slightly smaller heading */
+  font-size: 2rem;
 }
 header p {
-  font-size: 1.1rem; /* Slightly smaller paragraph */
+  font-size: 1.1rem;
   font-weight: 500;
   margin-bottom: 0;
-  color: #ced4da; /* Lighter text in header */
+  color: #e0e0e0; /* Lighter text in header */
 }
 .container {
   max-width: 1200px;
@@ -37,9 +37,12 @@ section {
 }
 section h2 {
   margin-bottom: 2rem;
-  font-size: 1.75rem; /* Smaller section heading */
-  color: #34495e; /* Darker heading */
-  text-align: center;
+  font-size: 1.75rem;
+  color: #3498db; /* A more professional blue */
+  text-align: left; /* Left-align section titles */
+  background-color: #f0f8ff; /* Light blue background for titles */
+  padding-left: 1rem; /* Add some padding to the left */
+  border-radius: 5px 0 0 5px; /* Rounded corners on the left side */
 }
 #about {
   display: flex;
@@ -47,7 +50,7 @@ section h2 {
   gap: 2rem;
 }
 #about img {
-  width: 180px; /* Slightly smaller image */
+  width: 180px;
   height: 180px;
   border-radius: 50%;
   object-fit: cover;
@@ -57,66 +60,51 @@ section h2 {
   font-size: 1rem;
   color: #495057;
 }
-#skills {
-    background-color: white;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 3rem;
-}
-
 #skills h2 {
-    margin-bottom: 2rem;
-    font-size: 1.75rem;
-    color: #34495e;
-    text-align: center;
+  color: #3498db;
 }
-
 #skills-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 1rem;
-    font-size: 0.9rem;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  border: 1px solid #b0c4de; /* Add a border to the table */
 }
-
-#skills-table th, #skills-table td {
-    padding: 0.75rem;
-    border-bottom: 1px solid #e2e3e4;
-    text-align: left;
-}
-
-#skills-table th {
-    font-weight: 600;
-    color: #34495e;
-}
-
+#skills-table th,
 #skills-table td {
-    color: #495057;
+  padding: 0.75rem;
+  border-bottom: 1px solid #b0c4de;
+  text-align: left;
+  border-right: 1px solid #b0c4de; /* Add right borders to cells */
 }
-
+#skills-table th {
+  font-weight: 600;
+  color: #2c3e50; /* Darker blue for heading */
+  background-color: #e0f7fa;
+}
+#skills-table td {
+  color: #495057;
+}
 #skills-table i {
-    margin-right: 0.5rem;
-    font-size: 1.1rem;
-    color: #007bff;
+  margin-right: 0.5rem;
+  font-size: 1.1rem;
+  color: #3498db; /* Blue for icons */
 }
-
-@media (max-width: 768px) {
-    #skills-table {
-        display: block;
-        overflow-x: auto;
-    }
+#skills-table th:last-child,
+#skills-table td:last-child {
+  border-right: none; /* Remove right border for the last column */
 }
 #projects .project {
   margin-bottom: 2rem;
-  border: 1px solid #ddd;
+  border: 1px solid #bdc3c7;
   padding: 1.5rem;
   border-radius: 10px;
-  background-color: #f8f9fa;
+  background-color: #f0f0f0;
 }
 #projects .project h3 {
   margin-bottom: 1rem;
-  font-size: 1.25rem; /* Smaller project title */
-  color: #34495e; /* Darker project title */
+  font-size: 1.25rem;
+  color: #2c3e50; /* Dark blue for project title */
 }
 #projects .project p {
   margin-bottom: 1rem;
@@ -124,7 +112,7 @@ section h2 {
   color: #495057;
 }
 #projects .project a {
-  color: #007bff;
+  color: #3498db; /* Blue for project link */
   text-decoration: none;
   font-weight: 600;
   font-size: 0.9rem;
@@ -139,12 +127,12 @@ section h2 {
   color: #495057;
 }
 footer {
-  background-color: #343a40;
-  color: #e9ecef; /* Lighter footer text */
+  background-color: #2c3e50;
+  color: #e0e0e0;
   text-align: center;
   padding: 1rem 0;
   margin-top: 3rem;
-  border-top: 1px solid #495057;
+  border-top: 1px solid #34495e;
   font-size: 0.9rem;
 }
 @media (max-width: 768px) {
@@ -154,6 +142,10 @@ footer {
   }
   #skills ul {
     flex-direction: column;
+  }
+  #skills-table {
+    display: block;
+    overflow-x: auto;
   }
 }
 .section-header {
