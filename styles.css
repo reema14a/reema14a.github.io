@@ -57,24 +57,32 @@ section h2 {
   border-bottom: none;
 }
 
-#about {
-  display: flex;
-  flex-direction: column; /* ensures vertical stacking */
-  align-items: center; /* optional: centers image and text */
-  gap: 1.5rem;
-  text-align: center; /* optional: for a cleaner centered look */
-}
-
-#about img {
+#profile-pic {
   width: 180px;
   height: 180px;
   border-radius: 50%;
   object-fit: cover;
+  margin-bottom: 1.5rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+  min-height: 250px; /* Optional: creates a square-ish block */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #about p {
-  font-size: 1rem;
+  font-size: 0.95rem;
   color: #495057;
 }
 
@@ -203,4 +211,24 @@ footer {
 
 #right-column {
   grid-column: 2;
+}
+
+.contact-icons {
+  margin-top: 0.5rem;
+}
+
+.contact-icons a {
+  color: #f8f0fb;
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.contact-icons a:hover {
+  color: #d1c4e9;
+}
+
+.contact-icons i {
+  vertical-align: middle;
+  display: inline-block;
 }
