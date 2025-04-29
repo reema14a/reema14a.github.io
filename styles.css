@@ -57,29 +57,54 @@ section h2 {
   font-size: 1rem;
   color: #495057;
 }
-#skills ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem; /* Reduced gap */
-  justify-content: center;
+#skills {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3rem;
 }
-#skills ul li {
-  background-color: #e2e3e4; /* More muted skill background */
-  color: #495057; /* Darker skill text */
-  padding: 0.5rem 1rem; /* Smaller padding */
-  border-radius: 25px;
-  font-size: 0.9rem; /* Smaller skill font */
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem; /* Reduced gap */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+#skills h2 {
+    margin-bottom: 2rem;
+    font-size: 1.75rem;
+    color: #34495e;
+    text-align: center;
 }
-#skills ul li i {
-  font-size: 1.1rem; /* Smaller icon */
-  color: #007bff;
+
+#skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+#skills-table th, #skills-table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #e2e3e4;
+    text-align: left;
+}
+
+#skills-table th {
+    font-weight: 600;
+    color: #34495e;
+}
+
+#skills-table td {
+    color: #495057;
+}
+
+#skills-table i {
+    margin-right: 0.5rem;
+    font-size: 1.1rem;
+    color: #007bff;
+}
+
+@media (max-width: 768px) {
+    #skills-table {
+        display: block;
+        overflow-x: auto;
+    }
 }
 #projects .project {
   margin-bottom: 2rem;
