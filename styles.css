@@ -12,7 +12,8 @@ header {
   color: white;
   text-align: center;
   padding: 2rem 0;
-  background-image: linear-gradient(to right, #957ef2, #6f0be8);
+  background-image: linear-gradient(to right, #b4a3f7, #7e57c2);
+  /*background-image: linear-gradient(to right, #957ef2, #7e57c2);*/
 }
 
 header h1 {
@@ -49,7 +50,8 @@ section h2 {
   font-size: 1.75rem;
   color: #fff;
   text-align: left;
-  background-image: linear-gradient(to right, #a683e8, #7b5ac2);
+  /*background-image: linear-gradient(to right, #a683e8, #7b5ac2);*/
+  background-image: linear-gradient(to right, #7e57c2, #9c27b0);
   padding-left: 1rem;
   border-radius: 5px 0 0 5px;
   border-bottom: none;
@@ -98,7 +100,8 @@ section h2 {
 #skills-table th {
   font-weight: 600;
   color: #ffffff;
-  background-image: linear-gradient(to right, #7e57c2, #9c27b0);
+  /*background-image: linear-gradient(to right, #7e57c2, #9c27b0);*/
+  background-image: linear-gradient(to right, #c3b1f7, #7b5ac2);
 }
 
 #skills-table td {
