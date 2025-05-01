@@ -169,10 +169,7 @@ section h2 {
   text-decoration: underline;
 }
 
-#education p,
-#contact p,
-#experience p,
-#publications p {
+#contact p {
   font-size: 1rem;
   margin-bottom: 0.5rem;
   color: #495057;
@@ -244,6 +241,17 @@ footer {
   display: inline-block;
 }
 
+.resume-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #c0392b;
+  font-weight: 600;
+  text-decoration: none;
+}
+.resume-link:hover {
+  text-decoration: underline;
+}
+
 .tools {
   margin-top: 0.5rem;
   margin-bottom: 1rem;
@@ -286,7 +294,8 @@ footer {
   justify-content: center;
 }
 
-.project-media img {
+.project-media img,
+video {
   flex: 1 1 30%;
   max-width: 30%;
   min-width: 150px;
