@@ -1,0 +1,32 @@
+:root {
+  --primary-color: #4299e1; /* A moderate, professional blue */
+  --primary-light: #a0aec0; /* A lighter, complementary blue/gray */
+  --secondary-color: #f7fafc; /* Very light, off-white */
+  --text-color: #2d3748; /* Dark, very readable gray/blue */
+  /* --section-header-bg-start: #497ed8;
+  --section-header-bg-end: #45669f; */
+  --section-header-bg-start: #4299e1;
+  --section-header-bg-end: #2b6cb0;
+  --table-header-bg-start: #4299e1;
+  --table-header-bg-end: #2b6cb0;
+  --skills-tr-hover-bg: #edf2f7;
+  --skills-bg-color: #ffffff;
+  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --project-link-color: #4299e1;
+  --project-border: #e2e8f0;
+  --project-bg-color: #ffffff;
+  --project-title-color: #1a365d; /* Very dark blue for project titles */
+  --tool-tag-bg: #edf2f7;
+  --tool-tag-color: #1a202c; /* Very dark gray, almost black */
+  --tool-tag-icon-color: #4299e1;
+  --tool-tag-border-color: #d1d8e3;
+  --footer-bg: #0744ae; /* Very dark blue/gray for footer */
+  --footer-text: #ffffff;
+  --footer-border-color: #4a5568;
+  --border-color: #e2e8f0;
+  --link-color: #4299e1;
+  --link-hover-color: #56ccf2; /* A brighter, but still professional, hover */
+  --resume-link-color: #c53030;
+  --body-primary-color: #f7fafc;
+  --body-secondary-color: #edf2f7;
+}

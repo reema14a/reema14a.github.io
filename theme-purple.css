@@ -1,0 +1,29 @@
+:root {
+  --primary-color: #a981bc;
+  --primary-light: #b388eb;
+  --secondary-color: #f8f0fb;
+  --text-color: #495057;
+  --section-header-bg-start: #a981bc;
+  --section-header-bg-end: #9c64d1;
+  --table-header-bg-start: #7e57c2;
+  --table-header-bg-end: #9c27b0;
+  --skills-tr-hover-bg: #f3e5f5;
+  --skills-bg-color: #ffffff;
+  --box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  --project-link-color: #a981bc;
+  --project-border: #e1bee7;
+  --project-bg-color: #ffffff;
+  --project-title-color: ;
+  --tool-tag-bg: #e8eaf6;
+  --tool-tag-color: #3f51b5;
+  --tool-tag-icon-color: #a981bc;
+  --footer-bg: #512da8;
+  --footer-text: #f8f0fb;
+  --footer-border-color: #7e57c2;
+  --border-color: #d1c4e9;
+  --link-color: #a981bc;
+  --link-hover-color: #d1c4e9;
+  --resume-link-color: #c0392b;
+  --body-primary-color: #f8f9fa;
+  --body-secondary-color: #e0f7fa;
+}
